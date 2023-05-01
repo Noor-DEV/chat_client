@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Poppins:wght@300;400;700&family=Tilt+Prism&display=swap");
+.App {
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#overlay {
+  background: rgba(0, 0, 0, 0.75);
+  min-height: 100vh;
+  display: flex;
+  background: rgb(38, 8, 1);
+  background: rgba(38, 8, 1, 0.9);
+}
+#container-HomePage {
+  min-height: 100vh;
+  display: flex;
+  background: url("https://media.istockphoto.com/id/1264145800/photo/concept-of-online-communication-or-social-networking-wooden-cubes-with-speech-bubbles-linked.jpg?s=612x612&w=0&k=20&c=pBYxcpd-5cHDFkzP6ON70wlyILpLgISYVlom2wgDeWA=")
+    no-repeat center/cover;
+}
+#chatPage {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+#btn {
+  background: rgb(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+/* CUSTOME SCROLLBARS */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#custom-bars::-webkit-scrollbar-track {
+  background: #b1111166;
+}
+
+/* Handle */
+#custom-bars::-webkit-scrollbar-thumb {
+  background: rgb(46, 136, 136);
+}
+
+/* Handle on hover */
+#custom-bars::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+/* CUSTOME SCROLLBARS */
